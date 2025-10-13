@@ -7,6 +7,9 @@ on:
   # GitHubのActionsタブから手動で実行できるようにする
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   scrape:
     runs-on: ubuntu-latest
