@@ -3,7 +3,7 @@ name: Check Collabo Cafe
 on:
   # 日本時間の午前9時に定期実行 (UTCでは0時)
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '33 0 * * *'
   # GitHubのActionsタブから手動で実行できるようにする
   workflow_dispatch:
 
