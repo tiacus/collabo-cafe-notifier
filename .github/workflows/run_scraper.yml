@@ -38,6 +38,10 @@ jobs:
           LINE_USER_ID: ${{ secrets.LINE_USER_ID }}
         run: python scrape_collabo_cafe.py
 
+      # TEMP: Display User ID for debugging
+      - name: Display LINE User ID for Debugging
+        run: echo "USER_ID_IS:${{ secrets.LINE_USER_ID }}"
+
       # 5. 変更をコミット＆プッシュ
       - name: Commit and push changes
         run: |
