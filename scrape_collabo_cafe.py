@@ -6,7 +6,7 @@ import sys
 
 # --- 定数設定 ---
 URL = "https://collabo-cafe.com/"
-KEYWORDS = ["原神", "ゼンゼロ", "ゼンレスゾーンゼロ", "ちいかわ","コラボ"]
+KEYWORDS = ["原神", "ゼンゼロ", "ゼンレスゾーンゼロ", "ちいかわ","カービィ"]
 NOTIFIED_URLS_FILE = "notified_urls.txt"
 
 # --- LINE Messaging API 設定 ---
